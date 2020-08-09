@@ -19,7 +19,7 @@ public class ProvaOrtografia {
 	static String host = "https://api.cognitive.microsoft.com";
 	static String path = "/bing/v7.0/spellcheck";
 
-	static String key = "e6868d417eaf46eaa72e5b1ca64cff78";
+	static String key = "";
 
 	static String mkt = "en-US";
 	static String mode = "proof";
