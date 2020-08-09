@@ -45,7 +45,7 @@ import static android.Manifest.permission.*;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static String speechSubscriptionKey = "f3d361f7b64443e1b531afd602e6b7f9";
+    private static String speechSubscriptionKey = "";
     private static String serviceRegion = "westus";
     private int count;
     private ArrayAdapter<String> adapter;
@@ -430,7 +430,7 @@ public class MainActivity extends AppCompatActivity {
             int exitCode = 1;
 
             //Andiamo a creare un oggetto per effettuare la traduzione del testo specificando la subscription key e la regione del servizio cognitivo
-            SpeechTranslationConfig config = SpeechTranslationConfig.fromSubscription("f3d361f7b64443e1b531afd602e6b7f9", "westus");
+            SpeechTranslationConfig config = SpeechTranslationConfig.fromSubscription("", "westus");
             assert (config != null);
 
             Log.d("TESTO","ciao1");
